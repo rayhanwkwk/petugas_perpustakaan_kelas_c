@@ -44,7 +44,7 @@ class AddBookController extends GetxController  {
               "tahun_terbit": int.parse(tahunterbitController.text.toString())
               }));
       if (response.statusCode == 201) {
-        // Get.snackbar("Berhasil", "Buku Berhasil", backgroundColor: Colors.pink);
+        // Get.snackbar("Berhasil", "Buku Berhasil Ditambahkan", backgroundColor: Colors.pink);
         Get.back();
       } else {
         Get.snackbar("Sorry", "Buku tidak masuk", backgroundColor: Colors.orange);

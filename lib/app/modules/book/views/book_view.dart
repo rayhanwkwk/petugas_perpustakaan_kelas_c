@@ -18,12 +18,14 @@ class BookView extends GetView<BookController> {
         onPressed: ()=>Get.toNamed(Routes.ADD_BOOK),child: Icon(Icons.add),
       ),
       body: Center(
-        child: Column(
-          children: [
-
-          ],
-        ),
-      ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+              children:[
+                CircularProgressIndicator(),
+                Text("Loading Book")
+          ]
+          )
+      )
     );
   }
 }
