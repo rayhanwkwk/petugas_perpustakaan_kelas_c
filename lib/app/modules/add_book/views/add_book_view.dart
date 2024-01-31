@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../controllers/add_book_controller.dart';
 
@@ -10,7 +11,7 @@ class AddBookView extends GetView<AddBookController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Tambah Buku'),
+        title: Text('Tambah Buku', style: GoogleFonts.audiowide( textStyle: TextStyle(color: Colors.white, fontSize: 30)),),
         centerTitle: true,
       ),
       body: Center(
