@@ -1,6 +1,5 @@
 class Endpoint {
-  static const String baseUrlApi =
-      "https://perpustakaan.ppksbogor.com/api/v1/petugas/";
+  static const String baseUrlApi = "https://perpustakaan.ppksbogor.com/api/v1/petugas/";
 
 
   static const String login = "${baseUrlApi}login";
